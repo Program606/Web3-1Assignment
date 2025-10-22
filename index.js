@@ -88,13 +88,6 @@ app.get("/api/standings/constructors/:raceId", (req,res) => {
   provider.retrieveStandingConstructors(req, res);
 });
 
-
-
-// root endpoint will retrieve all races
-app.get("/", (req, res) => {
-  provider.retrieveRaces(req, res);
-});
-
 // 404 handler — must be LAST, and must send a response
 app.use((req, res) => {
   res.status(404).json({ error: "Not Found" });
