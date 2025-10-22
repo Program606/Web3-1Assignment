@@ -15,26 +15,25 @@ SQLite3 – local relational database
 Deployment
 
 API Endpoints
-Endpoint	Description
-/api/circuits	Get all circuits
-/api/circuits/:ref	Get a specific circuit by reference
-/api/constructors	Get all constructors
-/api/constructors/:ref	Get a constructor by reference
-/api/drivers	Get all drivers
-/api/drivers/:ref	Get a driver by reference
-/api/drivers/search/:substring	Search drivers by surname substring
-/api/drivers/race/:raceId	Get all drivers in a specific race
-/api/races/:raceId	Get a race by ID
-/api/races/season/:year	Get all races from a specific year
-/api/races/season/:year/:round	Get race info by year and round
-/api/races/circuits/:circuitRef	Get all races at a specific circuit
-/api/races/circuits/:circuitRef/season/:start/:end	Get all races at a circuit within a year range
-/api/results/:raceId	Get all race results by race ID
-/api/results/driver/:driverRef	Get results for a specific driver
-/api/results/drivers/:driverRef/seasons/:start/:end	Get all driver results for a range of seasons
-/api/qualifying/:raceId	Get qualifying results for a race
-/api/standings/drivers/:raceId	Get driver standings for a race
-/api/standings/constructors/:raceId	Get constructor standings for a race
+Get all circuits - /api/circuits
+Get a specific circuit by reference - /api/circuits/:ref
+Get all constructors - /api/constructors
+Get a constructor by reference - /api/constructors/:ref
+Get all drivers - /api/drivers
+Get a driver by reference - /api/drivers/:ref
+Search drivers by surname substring - /api/drivers/search/:substring
+Get all drivers in a specific race - /api/drivers/race/:raceId
+Get a race by ID - /api/races/:raceId
+Get all races from a specific year - /api/races/season/:year
+Get race info by year and round - /api/races/season/:year/:round
+Get all races at a specific circuit - /api/races/circuits/:circuitRef
+Get all races at a circuit within a year range - /api/races/circuits/:circuitRef/season/:start/:end
+Get all race results by race ID - /api/results/:raceId
+Get results for a specific driver - /api/results/driver/:driverRef
+Get all driver results for a range of seasons - /api/results/drivers/:driverRef/seasons/:start/:end
+Get qualifying results for a race - /api/qualifying/:raceId
+Get driver standings for a race - /api/standings/drivers/:raceId
+Get constructor standings for a race - /api/standings/constructors/:raceId
 
 Testable Links
 https://web3-1assignment.onrender.com/api/circuits
